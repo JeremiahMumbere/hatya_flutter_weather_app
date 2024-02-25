@@ -1,6 +1,9 @@
 # hatya
 
-A new Flutter project.
+A Flutter project.
+It provides settings needed and all the dependencies.
+
+Check pubspec.yaml, make a pub get.
 
 ## Getting Started
 
