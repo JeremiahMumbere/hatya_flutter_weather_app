@@ -8,7 +8,7 @@ class API{
 
   Future<http.Response> getWeather(String lat, String lon) {
     return http.get(
-        Uri.parse('https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=0c7eb426b025621f7ea34218b662ebfb'),
+        Uri.parse('https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid='+openweathermapApiKey),
     ).timeout(Duration(seconds: 60));
   }
 }
